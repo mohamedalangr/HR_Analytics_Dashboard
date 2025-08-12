@@ -52,6 +52,7 @@ To run the interactive dashboard locally, you will need to have Python and the r
     streamlit run app.py
     ```
 4.  The dashboard will automatically open in your web browser.
+5.  Try it Live [https://hrdashboardd.streamlit.app/]
 
 ## Data Source
 
