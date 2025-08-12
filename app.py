@@ -79,7 +79,7 @@ st.markdown(
     "Also at a very younger age, i.e. from 18-20, the chances of an employee leaving the organization is far more—since they are exploring at that point of time. "
     "It reaches a break even point at the age of 21."
     "</p>", 
-    unsafe_allow_html=True
+    unsafe_allow_html=False
 )
 
 
@@ -467,3 +467,4 @@ We have checked the data, and have come upon to infer the following observations
 </ul>
 </p>
 """, unsafe_allow_html=True)
+
