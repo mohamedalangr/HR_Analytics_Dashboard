@@ -73,13 +73,15 @@ fig_age_att = px.line(age_att, x='Age', y='Counts', color='Attrition', title='Ag
 st.plotly_chart(fig_age_att, use_container_width=True)
 
 st.markdown(
+  """
     "<p style='text-align: center; font-weight: bold; color: white; font-family: Arial;'>"
     "Observation: As seen in the chart above, the attrition is maximum between the age groups 28-32. "
     "The attrition rate keeps on falling with increasing age, as people look after stability in their jobs at these point of times. "
     "Also at a very younger age, i.e. from 18-20, the chances of an employee leaving the organization is far more—since they are exploring at that point of time. "
     "It reaches a break even point at the age of 21."
-    "</p>", 
-    unsafe_allow_html=False
+    "</p>"
+  """ , 
+    unsafe_allow_html=True
 )
 
 
@@ -467,4 +469,5 @@ We have checked the data, and have come upon to infer the following observations
 </ul>
 </p>
 """, unsafe_allow_html=True)
+
 
